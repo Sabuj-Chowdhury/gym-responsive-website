@@ -33,9 +33,16 @@
    }
    .banner-img-card-container{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    
+    position: relative;
+}
+.video-tuitorial-card{
+    top: 44%;
+   left: -10%;
+}
+.workout-tuitorial-card{
+
+    left: 55%;
+    top: 12%;
 }
 
 }
