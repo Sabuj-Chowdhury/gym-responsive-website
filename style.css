@@ -19,10 +19,10 @@
   }
 
 /* body */
-/* body{
+body{
     width: 100%;
-    border: 2px dotted blue;
-} */
+    
+}
 
 /* banner style starts  */
 .banner-container{
@@ -82,6 +82,9 @@
     font-weight: 400;
 
 }
+.hamburger-icon{
+    display: none;
+}
 
 /* nav styles ENDS */
 
@@ -114,29 +117,34 @@
 
 }
 #join-btn{
-    border-radius: 42px;
+    
     background: rgb(230, 83, 60);
     border: none;
-    padding: 1em 1.5em;
+    padding: 16px 24px;
     color: white;
-    font-size: 1em;
+    font-size: 16px;
+    border-radius: 42px;
 }
 #download-btn{
     background: #1a1a1a;
-    padding: 1em 1.5em;
-    border-radius: 2.7em;
+    padding: 16px 24px;
+    border-radius: 42px;
     color: white;
     border: 1px solid white;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .banner-img-card-container{
     width: 50%;
     /* border: 1px dotted red; */
+   
+   
+}
+.image-container{
+    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     object-fit: cover;
-    position: relative;
 }
 
 .banner{
@@ -161,23 +169,23 @@
     backdrop-filter: blur(8px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    top: 73%;
-    right: 45%;
+    top: 68%;
+   left: 60%;
 }
 .circle{
-    width:2.5em ;
-    height:2.5em ;
+    width:40px;
+    height:40px ;
     border-radius: 50%;
     background-color: red;
 }
 .circle-text h5{
     color: rgb(250, 250, 249);
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: 900;
 }
 .circle-text p{
     color: rgba(239, 237, 232, 0.65);
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 400;
 }
 .workout-tuitorial-card{
@@ -188,8 +196,8 @@
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1);
     position:absolute;
-    left: 75%;
-    top: 20%;
+    left: 80%;
+    top: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,12 +205,12 @@
 }
 .workout-tuitorial-card h5{
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
+    font-size: 40px;
     font-weight: 900;
 }
 .workout-tuitorial-card p{
     color: rgba(255, 255, 255, 0.65);
-    font-size: 0.9em;
+    font-size: 14px;
     font-weight: 400;
 }
 /* banner styles ends */
