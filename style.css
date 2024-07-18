@@ -157,7 +157,7 @@ body{
     gap: 1.5em;
 }
 
-.video-tuitorial-card{
+.video-tutorial-card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +188,7 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.workout-tuitorial-card{
+.workout-tutorial-card{
     width: 190px;
     height: 95px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -203,12 +203,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-.workout-tuitorial-card h5{
+.workout-tutorial-card h5{
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 900;
 }
-.workout-tuitorial-card p{
+.workout-tutorial-card p{
     color: rgba(255, 255, 255, 0.65);
     font-size: 14px;
     font-weight: 400;
