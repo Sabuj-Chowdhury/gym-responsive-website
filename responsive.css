@@ -47,4 +47,24 @@
 }
 /* banner ends */
 
+
+
+/* change-yours-habits-sections STARTS */
+
+
+.change-your-habits-text-container{
+    width: 100%;
+    
+}
+.change-your-habits-img-container{
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+/* change-yours-habits-sections ENDS */
+
 }
