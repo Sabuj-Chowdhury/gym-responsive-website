@@ -67,4 +67,20 @@
 
 /* change-yours-habits-sections ENDS */
 
+/* run-extra- mile section START */
+.run-extra-mile-container{
+   flex-direction: column;
+}
+.run-extra-mile-text-container{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.run-extra-mile-text-container h3{
+    font-size: 4em;
+}
+.run-extra-mile-img-container{
+    width: 100%
+}
+/* run-extra- mile section END */
+
 }
