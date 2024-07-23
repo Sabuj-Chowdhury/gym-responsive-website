@@ -1,57 +1,52 @@
 @media screen and (max-width:576px) {
-    /* banner starts */
-    .banner-container{
-        padding-top: 2em;
-        padding: 1em;
-        max-height: 100%;
-        /* border: 2px dotted red; */
-    }
-    
-    .nav-menu{
-        display: none;
-    }
-    .hamburger-icon{
-        display: block;
-        color: white;
-    }
-    .nav-container{
-        width: 100%;
-        
-    }
-    .banner-text-container{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .banner-text-container h2{
-        font-size: 3em;
-    }
-    #shape{
-        margin:0;
-        font-size: 1.8em;   
-    }
-   .banner{
+   
+ 
+ /* banner starts */
+ .banner-container{
+    padding: 20px 30px;
+ }
+.nav-container{
+    margin-bottom: 50px;
+}
+.nav-menu{
+    display: none;
+}
+.hamburger-icon{
+    display: block;
+    color: white;
+}
+.banner{
     flex-direction: column;
-   }
-   .banner-img-card-container{
+}
+.banner-text-container{
     width: 100%;
-    position: relative;
+    margin-bottom: 30px;
+}
+#shape{
+    font-size: 1.5em;
+   margin-right: 4px;
+}
+.banner-btn-container{
+    gap: 20px;
+}
+.banner-img-card-container img{
+    width: 100%;
 }
 .video-tutorial-card{
-    top: 44%;
-   left: -10%;
+    bottom: 15%;
+    left: 10%;
 }
 .workout-tutorial-card{
-
+    top: 10%;
     left: 55%;
-    top: 12%;
 }
+
+ 
 /* banner ends */
 
 
 
 /* change-yours-habits-sections STARTS */
-
-
 .change-your-habits-text-container{
     width: 100%;
     
@@ -76,7 +71,7 @@
     margin-bottom: 20px;
 }
 .run-extra-mile-text-container h3{
-    font-size: 4em;
+    font-size: 3em;
 }
 .run-extra-mile-img-container{
     width: 100%

@@ -21,35 +21,39 @@
 
 /* body */
 body{
-    width: 100%;
-    
     background-color: black;
-    
 }
 
 /* banner style starts  */
-.banner-container{
-    width: 100%;  
-    max-height: 730px;
+.banner-container{ 
     background: linear-gradient(180deg, #1a1a1a 0%, #2e2e2e 50%, black 100%);
-    padding: 3em;
     /* border: 2px dotted red; */
 }
 
 /* nav styes START */
 .nav-container{
-    width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2em;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
 }
 .nav-heading{
-    width: 50%;
+    width: max-content;
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 3em;
+    font-weight: 800;
+}
+.hamburger-icon{
+    display: none;
 }
 .nav-menu{
-    width: 45%;
+    width: 50%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 12px 14px;
@@ -59,17 +63,13 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.nav-title{
-    color: rgb(230, 83, 60);
-    font-size: 2.25em;
-    font-weight: 800;
-}
+
 .nav-menu>ul>li{
     list-style: none;
 }
 .nav-menu-list button{
     border: none;
-    border-radius:2.8em;
+    border-radius:45px;
     background: rgb(230, 83, 60);
     padding: 8px 20px;
 }
@@ -83,56 +83,55 @@ body{
     color: rgb(255, 255, 255);
     font-size: 1.2em;
     font-weight: 400;
-
 }
-.hamburger-icon{
-    display: none;
-}
-
 /* nav styles ENDS */
-
-
-
-.banner-text-container{
-    width: 50%;
-    text-align: left;
-    /* border: 2px solid yellow; */
+.banner{
+    max-width: 1200px;
+    /* max-height: 700px; */
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
 }
-.banner-text-container h2{
+.banner-text-container{
+    width: 45%;
+    text-align: left;
+}
+.banner-text-container h1{
     color: rgb(255, 255, 255);
     font-size: 4em;
     font-weight: 900;
-    margin-bottom: .5em;
-
+    margin-bottom: 30px;
+    padding: 0;
 }
 #shape{
-    font-family: 'Great Vibes', cursive;
-    
-                                                
-    margin-right: .1em;
-    font-weight: 400;
-    font-size: 2.8em;
-    
+    font-family: 'Great Vibes', cursive;                                           
+    font-weight: normal;
+    font-size: 3em;
+    margin-right:12px;  
 }
 .banner-text-container p{
     color: rgba(255, 255, 255, 0.5);
     font-size:1em;
     font-weight: 400;
-    margin-bottom: 2em;
+    margin-bottom: 40px;
 
 }
-#join-btn{
-    
+.banner-btn-container{
+    display: flex;
+    gap: 20px;
+}
+#join-btn{ 
     background: rgb(230, 83, 60);
     border: none;
-    padding: 16px 24px;
+    padding: 16px 40px;
     color: white;
     font-size: 16px;
     border-radius: 42px;
 }
+
 #download-btn{
     background: #1a1a1a;
-    padding: 16px 24px;
+    padding: 16px 40px;
     border-radius: 42px;
     color: white;
     border: 1px solid white;
@@ -140,42 +139,36 @@ body{
 }
 
 .banner-img-card-container{
-    width: 50%;
-    /* border: 1px dotted red; */
-   
-   
+    position: relative;
 }
-.image-container{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+.banner-img-card-container img{
+    max-height: 500px;
     object-fit: contain;
-}
-
-.banner{
-    width: 85%;
-    margin: 0 auto;
-    display: flex;  
-}
-.banner-btns-container{
-    display: flex;
-    gap: 1.5em;
 }
 
 .video-tutorial-card{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-    height:90px ;
-    width: 200px ;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 8px;
+    padding: 20px;
+    /* border: 1px solid rgba(255, 255, 255, 0.418); */
+    backdrop-filter: blur(4px);
     border-radius: 12px;
-    backdrop-filter: blur(8px);
-    background: rgba(48, 48, 48, 0.54);
+    background: rgba(48, 48, 48, 0.654);
     position: absolute;
-    top: 68%;
-   left: 60%;
+    bottom: 15%;
+    left: -35%;
+}
+.video-tutorial-card-text h5{
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+
+}
+.video-tutorial-card-text p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+
 }
 .circle{
     width:40px;
@@ -183,34 +176,25 @@ body{
     border-radius: 50%;
     background-color: red;
 }
-.circle-text h5{
-    color: rgb(250, 250, 249);
-    font-size: 24px;
-    font-weight: 900;
-}
-.circle-text p{
-    color: rgba(239, 237, 232, 0.65);
-    font-size: 16px;
-    font-weight: 400;
-}
+
 .workout-tutorial-card{
-    width: 190px;
-    height: 95px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(10px);
-    background: rgba(255, 255, 255, 0.1);
-    position:absolute;
-    left: 80%;
-    top: 25%;
+    height: 90px;
+    width: 180px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 20%;
+    left: 60%;
 }
 .workout-tutorial-card h5{
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
 }
 .workout-tutorial-card p{
@@ -221,12 +205,15 @@ body{
 /* banner styles ends */
 
 
+
+
 /* change-yours-habits-sections STARTS */
 
 .change-your-habits-container{
-    width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .change-your-habits-text-container{
@@ -251,6 +238,7 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .workout-img-text-container{
@@ -260,6 +248,7 @@ body{
 .workout-img img{
     width: 100%;
     border-radius: 50%;
+    
 }
 
 .workout-img-text-container h6{
@@ -269,6 +258,7 @@ body{
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+  
 }
 .workout-img-text-container p{
     color: rgba(255, 255, 255, 0.5);
@@ -286,10 +276,9 @@ body{
 /* Run extra mile section style START */
 
 .run-extra-mile-container{
-
-    width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top:150px;
+    margin-top: 160px;
     padding: 28px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
@@ -322,6 +311,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
+    border: none;
 
 
 }
@@ -336,3 +326,43 @@ body{
 
 
 /* Run extra mile section style ENDS*/
+
+
+
+
+/* Optional training and exercises style STARTS  */
+.training-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: none;
+}
+.training-text{
+    width: 50%;
+}
+.training-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.training-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.training-img-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    /* grid-template-rows: repeat(3,1fr); */
+}
+.training-img-container img{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+/* Optional training and exercises style ENDS  */
