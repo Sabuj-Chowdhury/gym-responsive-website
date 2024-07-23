@@ -62,7 +62,6 @@
 
 /* change-yours-habits-sections ENDS */
 
-/* main */
 
 /* run-extra- mile section START */
 .wrapper{
@@ -85,8 +84,31 @@
 }
 .button-section-3 button{
     width: 100%;
-
 }
 /* run-extra- mile section END */
+
+/* BMI text START*/
+.wrapper-two{
+    padding: 10px 30px;
+    
+}
+.bmi-text-container{
+    margin-top: 40px;
+    width: 100%;
+}
+/* BMI text END*/
+
+/* BMI table start */
+.bmi-table-container-wrapper{
+    flex-direction: column;
+    padding: 30px;
+   
+}
+.bmi-chart-container, .bmi-calculate-container{
+    width: 100%;
+}
+/* BMI table end */
+
+
 
 }
