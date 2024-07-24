@@ -512,3 +512,107 @@ body{
 
 
 /* BMI table container styles END */
+
+
+
+/* Meet our team text style START */
+.meet-our-team-text-container{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.meet-our-team-text-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+.meet-our-team-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1em;
+    font-weight: 400;
+
+}
+/* Meet our team text style START */
+
+/* Meet our team image container style Start */
+.meet-our-team-img-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    
+    
+}
+.wrapper-three{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.wrapper-three div{
+    width: 100%;
+}
+
+.meet-team-img-1{
+    background:url('./images/trainer1.png'), rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+.meet-team-img-2{
+    background:url('./images/trainer2.png'), rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+.meet-team-img-3{
+    background:url('./images/trainer3.png'), rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+.meet-team-img-4{
+    background:url('./images/trainer4.png'), rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+.meet-team-img-5{
+    background:url('./images/trainer5.png'), rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+.meet-team-img-6{
+    background:url('./images/trainer6.png'), rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+
+/* Meet our team image container style end */
