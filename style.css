@@ -616,3 +616,79 @@ body{
 
 
 /* Meet our team image container style end */
+
+
+
+/* footer styles START */
+.footer-container{
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+  
+    
+}
+.footer-content-container{
+    max-width: 1200px;
+   
+    margin: 0 auto;
+    border: 2px dotted rgba(255, 255, 255, 0);
+    
+}
+.footer-content{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.footer-content-1{
+    width: 40%; 
+   
+}
+.footer-title{
+    color: rgb(230, 83, 60);
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-content-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    font-weight: 400;
+}
+.footer-content-2{
+    width: 20%;
+    
+}
+.footer-content-2 h4{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.footer-content-2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-content-2 ul  a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3em;
+    font-weight: 400;
+    cursor: pointer;
+}
+.hr-1{
+
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+}
+small{
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+/* footer styles END */

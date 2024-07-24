@@ -123,6 +123,26 @@
 }
 /* meet our team end */
 
+/* footer START */
+.footer-container{  
+    margin-top: 20px;    
+}
+.footer-content{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-content-1,.footer-content-2{
+    width: 100%; 
+   
+}
+small{
+    width: 100%;
+}
+/* footer END */
 
 
 
