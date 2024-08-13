@@ -664,8 +664,8 @@ body{
 #articles-btn{
     background-color: white;
     color: black;
-    font-weight: bold;
-    font-size: 1em;
+    font-weight: bolder;
+    font-size: 1.5em;
     cursor: pointer;
     text-transform: uppercase;
     padding: 20px 50px;
