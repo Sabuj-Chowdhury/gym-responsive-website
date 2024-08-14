@@ -421,12 +421,10 @@ body{
     margin-bottom: 20px;
 }
 .bmi-calculate-container input{
-    padding: 12px 20px;
-    width: 47%;
+    padding: 20px 20px;
+    width: 100%;
     border-radius: 8px;
     border: none;
-    margin-bottom: 10px;
-    margin-right: 5px;
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
@@ -435,9 +433,15 @@ body{
     font-weight: 400;
 
 }
+.input-fields{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
 .sex-select{
-    padding: 12px 20px;
-    width: 47%;
+    
+    padding: 20px 20px;
+    width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
@@ -447,8 +451,8 @@ body{
 
 }
 .activity-selector{
-    padding: 15px 20px;
-    width: 95%;
+    padding: 20px 20px;
+    width: 100%;
     border-radius: 8px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
@@ -456,6 +460,7 @@ body{
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 20px;
+    grid-column: 1/span 2;
 
 }
 .bmi-calculate-container button{
