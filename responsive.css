@@ -158,6 +158,9 @@
 .article-contents p{
     margin-bottom: 20px;
 }
+.article-contents:hover{
+    transform: scale(.8);
+}
 /* footer START */
 .footer-container{  
     margin-top: 20px;    

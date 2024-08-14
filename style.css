@@ -333,44 +333,6 @@ body{
 
 
 
-/* Optional training and exercises style STARTS  */
-.training-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 100px;
-    display: none;
-}
-.training-text{
-    width: 50%;
-}
-.training-text h2{
-    color: rgb(255, 255, 255);
-    font-size: 3em;
-    font-weight: 900;
-    text-align: left;
-    margin-bottom: 20px;
-}
-.training-text p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1em;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 20px;
-}
-.training-img-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-    /* grid-template-rows: repeat(3,1fr); */
-}
-.training-img-container img{
-    height: 250px;
-    width: 100%;
-    object-fit: contain;
-}
-/* Optional training and exercises style ENDS  */
-
-
 
 
 /* BMI text container Style START */
@@ -512,6 +474,7 @@ body{
 
 
 /* BMI table container styles END */
+
 
 
 
@@ -670,10 +633,11 @@ body{
     text-transform: uppercase;
     padding: 20px 50px;
     border: none;
+    transition: 2s;
 }
 #articles-btn:hover{
     background-color: rgba(255, 0, 0, 0.603);
-    transition-delay: 1ms;
+    
 }
 .date-div{
    display: inline-block;
@@ -709,6 +673,12 @@ body{
     font-size: 1em;
     text-transform: uppercase;
 }
+.article-contents{
+    transition: 2s;
+}
+.article-contents:hover{
+    transform: scale(1.2);
+}
 .article-img-1{
     background-image: url('./images/gym-model-1.jpg');
     background-repeat: no-repeat;
@@ -733,7 +703,6 @@ body{
     width: 370px;
     height: 270px;
 }
-
 
 
 /* Articles and news Styles END */
